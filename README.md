@@ -7,7 +7,7 @@ Lots of help from https://peterbloem.nl/blog/transformers and https://jalammar.g
 
 Notes and code are listed below and in model.ipynb
 
-## Self Attention
+## How Self Attention Works
 
 This is the big breakthrough in how Transformers became a state of the art architecture, and are fundamental to all Transformers.
 This self attention is called 'sequence to sequence', because a sequence of vectors go in are then are pushed out.
@@ -114,7 +114,7 @@ class SelfAttention(nn.Module):
         return self.unifyheads(out)
 ```
 
-# Transformer Block
+# Overview of Transformer Blocks
 
 From input to output, the big picture view goes from self attention layer, to layer normalization, to a feed forward layer with multi layer perceptrons, and finally through another layer normalization. Residual connections are also strung before the normalization.
 
