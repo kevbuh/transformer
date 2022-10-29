@@ -2,12 +2,18 @@
 
 "What I cannot create, I do not understand" - Richard Feynman
 
-Based of the paper, "Attention Is All You Need", https://arxiv.org/pdf/1706.03762.pdf.
+### Main model Based of the Paper by Google's Brain Research Team, "An Image Is Worth 16 x 16 Words".
+
+### Go to vit.ipynb for Visual transformer works
+
+First model is based of the paper, "Attention Is All You Need", https://arxiv.org/pdf/1706.03762.pdf.
 Lots of help from https://peterbloem.nl/blog/transformers and https://jalammar.github.io/illustrated-transformer/.
 
 Notes and code are listed below and in model.ipynb
 
-## How Self Attention Works
+# Notes on general Transformers
+
+### How Self Attention Works
 
 This is the big breakthrough in how Transformers became a state of the art architecture, and are fundamental to all Transformers.
 This self attention is called 'sequence to sequence', because a sequence of vectors go in are then are pushed out.
